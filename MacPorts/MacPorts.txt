@@ -1,0 +1,75 @@
+*** Development tools ***
+
+
+
+I. Xcode
+
+
+II. Command Line Tools
+
+$ sudo xcode-select --install
+$ sudo xcodebuild -license
+
+
+
+*** MacPorts ***
+
+-> MacPorts.org
+
+
+Uninstall all installed ports:
+
+$ sudo port -fp uninstall installed ;
+
+
+Uninstall MacPorts:
+
+$ sudo rm -rfv \
+        /opt/local \
+        /Applications/DarwinPorts \
+        /Applications/MacPorts \
+        /Library/LaunchDaemons/org.macports.* \
+        /Library/Receipts/DarwinPorts*.pkg \
+        /Library/Receipts/MacPorts*.pkg \
+        /Library/StartupItems/DarwinPortsStartup \
+        /Library/Tcl/darwinports1.0 \
+        /Library/Tcl/macports1.0 \
+        ~/.macports \
+        /Users/user/.macports ;
+
+$ rm -rfv ~/.macports ;
+
+
+Install nem MacPorts (MacPorts-2.3.5-10.12-Sierra.pkg)...
+
+Install progs:
+$ sudo port -d selfupdate ;
+$ sudo port upgrade outdated ;
+$ sudo port install mc cssh csshX minicom ipcalc sipcalc nmap httping md5sha1sum smartmontools ffmpeg git ;
+
+Upgrade:
+$ sudo port selfupdate ;
+$ sudo port upgrade outdated ;
+$ sudo port installed inactive ;
+$ sudo port uninstall inactive ;
+
+
+Source install: MacPorts-2.3.5.tar.bz2
+
+cd /usr/local/
+sudo mkdir src
+sudo chown admin ./src
+sudo chgrp admin ./src
+sudo chmod g+w ./src
+cd src
+cp -av ~/Downloads/MacPorts-2.3.5.tar.bz2 .
+tar xvfj MacPorts-2.3.5.tar.bz2
+cd MacPorts-2.3.5
+$ ./configure --prefix=/opt/local/macports
+$ make
+$ sudo make install
+
+.profile
+# MacPorts Installed from source prefix=/opt/local/macports
+export PATH="/opt/local/macports/bin:/opt/local/macports/sbin:$PATH"
+export MANPATH=/opt/local/macports/share/man:$MANPATH

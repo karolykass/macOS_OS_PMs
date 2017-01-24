@@ -1,0 +1,317 @@
+Last login: Tue Jan 24 22:42:28 on ttys000
+user@host:[~]:$ su - admin
+Password:
+host:~ admin$ brew install mc csshx minicom ipcalc sipcalc nmap httping md5sha1sum smartmontools ffmpeg git python python3
+==> Installing dependencies for midnight-commander: gettext, libffi, pcre, glib, openssl, libpng, s-lang, libssh2
+==> Installing midnight-commander dependency: gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.19.8.1.sierra.bot
+######################################################################## 100.0%
+==> Pouring gettext-0.19.8.1.sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+macOS provides the BSD gettext library and some software gets confused if both are in the library path.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/gettext/lib
+    CPPFLAGS: -I/usr/local/opt/gettext/include
+
+==> Summary
+🍺  /usr/local/Cellar/gettext/0.19.8.1: 1,934 files, 16.9M
+==> Installing midnight-commander dependency: libffi
+==> Downloading https://homebrew.bintray.com/bottles/libffi-3.0.13.sierra.bottle
+######################################################################## 100.0%
+==> Pouring libffi-3.0.13.sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Some formulae require a newer version of libffi.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/libffi/lib
+
+==> Summary
+🍺  /usr/local/Cellar/libffi/3.0.13: 15 files, 361.9K
+==> Installing midnight-commander dependency: pcre
+==> Downloading https://homebrew.bintray.com/bottles/pcre-8.39.sierra.bottle.tar
+######################################################################## 100.0%
+==> Pouring pcre-8.39.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre/8.39: 203 files, 5.4M
+==> Installing midnight-commander dependency: glib
+==> Downloading https://homebrew.bintray.com/bottles/glib-2.50.2.sierra.bottle.t
+######################################################################## 100.0%
+==> Pouring glib-2.50.2.sierra.bottle.tar.gz
+==> Using the sandbox
+🍺  /usr/local/Cellar/glib/2.50.2: 427 files, 22.4M
+==> Installing midnight-commander dependency: openssl
+==> Downloading https://homebrew.bintray.com/bottles/openssl-1.0.2j.sierra.bottl
+######################################################################## 100.0%
+==> Pouring openssl-1.0.2j.sierra.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.2j: 1,695 files, 12M
+==> Installing midnight-commander dependency: libpng
+==> Downloading https://homebrew.bintray.com/bottles/libpng-1.6.28.sierra.bottle
+######################################################################## 100.0%
+==> Pouring libpng-1.6.28.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.28: 26 files, 1.2M
+==> Installing midnight-commander dependency: s-lang
+==> Downloading https://homebrew.bintray.com/bottles/s-lang-2.3.0.sierra.bottle.
+######################################################################## 100.0%
+==> Pouring s-lang-2.3.0.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/s-lang/2.3.0: 156 files, 2.8M
+==> Installing midnight-commander dependency: libssh2
+==> Downloading https://homebrew.bintray.com/bottles/libssh2-1.8.0.sierra.bottle
+######################################################################## 100.0%
+==> Pouring libssh2-1.8.0.sierra.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libssh2/1.8.0: 182 files, 799K
+==> Installing midnight-commander 
+==> Downloading https://homebrew.bintray.com/bottles/midnight-commander-4.8.18.s
+######################################################################## 100.0%
+==> Pouring midnight-commander-4.8.18.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/midnight-commander/4.8.18: 312 files, 7M
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/
+######################################################################## 100.0%
+🍺  /usr/local/Cellar/csshx/0.74: 4 files, 85.2K, built in 3 seconds
+==> Downloading https://homebrew.bintray.com/bottles/minicom-2.7.sierra.bottle.t
+######################################################################## 100.0%
+==> Pouring minicom-2.7.sierra.bottle.tar.gz
+==> Caveats
+Terminal Compatibility
+======================
+If minicom doesn't see the LANG variable, it will try to fallback to
+make the layout more compatible, but uglier. Certain unsupported
+encodings will completely render the UI useless, so if the UI looks
+strange, try setting the following environment variable:
+
+  LANG="en_US.UTF-8"
+
+Text Input Not Working
+======================
+Most development boards require Serial port setup -> Hardware Flow
+Control to be set to "No" to input text.
+==> Summary
+🍺  /usr/local/Cellar/minicom/2.7: 16 files, 346.4K
+==> Downloading http://jodies.de/ipcalc-archive/ipcalc-0.41.tar.gz
+######################################################################## 100.0%
+🍺  /usr/local/Cellar/ipcalc/0.41: 5 files, 32.9K, built in 1 second
+==> Downloading https://homebrew.bintray.com/bottles/sipcalc-1.1.6.sierra.bottle
+######################################################################## 100.0%
+==> Pouring sipcalc-1.1.6.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/sipcalc/1.1.6: 9 files, 63.1K
+==> Downloading https://homebrew.bintray.com/bottles/nmap-7.40.sierra.bottle.tar
+######################################################################## 100.0%
+==> Pouring nmap-7.40.sierra.bottle.tar.gz
+==> Caveats
+Python modules have been installed and Homebrew's site-packages is not
+in your Python sys.path, so you will not be able to import the modules
+this formula installed. If you plan to develop with these modules,
+please run:
+  mkdir -p /Users/admin/Library/Python/2.7/lib/python/site-packages
+  echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/admin/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+==> Summary
+🍺  /usr/local/Cellar/nmap/7.40: 761 files, 24.3M
+==> Downloading https://homebrew.bintray.com/bottles/httping-2.5.sierra.bottle.t
+######################################################################## 100.0%
+==> Pouring httping-2.5.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/httping/2.5: 11 files, 157.9K
+==> Downloading https://homebrew.bintray.com/bottles/md5sha1sum-0.9.5.sierra.bot
+######################################################################## 100.0%
+==> Pouring md5sha1sum-0.9.5.sierra.bottle.2.tar.gz
+🍺  /usr/local/Cellar/md5sha1sum/0.9.5: 7 files, 40.8K
+==> Downloading https://homebrew.bintray.com/bottles/smartmontools-6.5.sierra.bo
+######################################################################## 100.0%
+==> Pouring smartmontools-6.5.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/smartmontools/6.5: 31 files, 1.7M
+==> Installing dependencies for ffmpeg: lame, x264, xvid
+==> Installing ffmpeg dependency: lame
+==> Downloading https://homebrew.bintray.com/bottles/lame-3.99.5.sierra.bottle.1
+######################################################################## 100.0%
+==> Pouring lame-3.99.5.sierra.bottle.1.tar.gz
+🍺  /usr/local/Cellar/lame/3.99.5: 26 files, 2M
+==> Installing ffmpeg dependency: x264
+==> Downloading https://homebrew.bintray.com/bottles/x264-r2728.sierra.bottle.ta
+######################################################################## 100.0%
+==> Pouring x264-r2728.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/x264/r2728: 11 files, 3.3M
+==> Installing ffmpeg dependency: xvid
+==> Downloading https://homebrew.bintray.com/bottles/xvid-1.3.4.sierra.bottle.ta
+######################################################################## 100.0%
+==> Pouring xvid-1.3.4.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/xvid/1.3.4: 9 files, 1.2M
+==> Installing ffmpeg 
+==> Downloading https://homebrew.bintray.com/bottles/ffmpeg-3.2.2.sierra.bottle.
+######################################################################## 100.0%
+==> Pouring ffmpeg-3.2.2.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/ffmpeg/3.2.2: 239 files, 50.4M
+==> Downloading https://homebrew.bintray.com/bottles/git-2.11.0.sierra.bottle.ta
+######################################################################## 100.0%
+==> Pouring git-2.11.0.sierra.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+
+zsh functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.11.0: 1,452 files, 32.4M
+==> Installing dependencies for python: readline, sqlite, gdbm
+==> Installing python dependency: readline
+==> Downloading https://homebrew.bintray.com/bottles/readline-7.0.1.sierra.bottl
+######################################################################## 100.0%
+==> Pouring readline-7.0.1.sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+macOS provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/readline/lib
+    CPPFLAGS: -I/usr/local/opt/readline/include
+
+==> Summary
+🍺  /usr/local/Cellar/readline/7.0.1: 46 files, 2M
+==> Installing python dependency: sqlite
+==> Downloading https://homebrew.bintray.com/bottles/sqlite-3.16.2.sierra.bottle
+######################################################################## 100.0%
+==> Pouring sqlite-3.16.2.sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+macOS provides an older sqlite3.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/sqlite/lib
+    CPPFLAGS: -I/usr/local/opt/sqlite/include
+
+==> Summary
+🍺  /usr/local/Cellar/sqlite/3.16.2: 11 files, 2.9M
+==> Installing python dependency: gdbm
+==> Downloading https://homebrew.bintray.com/bottles/gdbm-1.12.sierra.bottle.tar
+######################################################################## 100.0%
+==> Pouring gdbm-1.12.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.12: 18 files, 486.9K
+==> Installing python 
+==> Downloading https://homebrew.bintray.com/bottles/python-2.7.13.sierra.bottle
+######################################################################## 100.0%
+==> Pouring python-2.7.13.sierra.bottle.tar.gz
+==> /usr/local/Cellar/python/2.7.13/bin/python -s setup.py --no-user-cfg install
+==> /usr/local/Cellar/python/2.7.13/bin/python -s setup.py --no-user-cfg install
+==> /usr/local/Cellar/python/2.7.13/bin/python -s setup.py --no-user-cfg install
+==> Caveats
+Pip and setuptools have been installed. To update them
+  pip install --upgrade pip setuptools
+
+You can install Python packages with
+  pip install <package>
+
+They will install into the site-package directory
+  /usr/local/lib/python2.7/site-packages
+
+See: http://docs.brew.sh/Homebrew-and-Python.html
+==> Summary
+🍺  /usr/local/Cellar/python/2.7.13: 3,526 files, 48M
+==> Installing dependencies for python3: xz
+==> Installing python3 dependency: xz
+==> Downloading https://homebrew.bintray.com/bottles/xz-5.2.3.sierra.bottle.tar.
+######################################################################## 100.0%
+==> Pouring xz-5.2.3.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.2.3: 92 files, 1.4M
+==> Installing python3 
+==> Downloading https://homebrew.bintray.com/bottles/python3-3.6.0.sierra.bottle
+######################################################################## 100.0%
+==> Pouring python3-3.6.0.sierra.bottle.tar.gz
+==> /usr/local/Cellar/python3/3.6.0/bin/python3 -s setup.py --no-user-cfg instal
+==> /usr/local/Cellar/python3/3.6.0/bin/python3 -s setup.py --no-user-cfg instal
+==> /usr/local/Cellar/python3/3.6.0/bin/python3 -s setup.py --no-user-cfg instal
+==> Caveats
+Pip, setuptools, and wheel have been installed. To update them
+  pip3 install --upgrade pip setuptools wheel
+
+You can install Python packages with
+  pip3 install <package>
+
+They will install into the site-package directory
+  /usr/local/lib/python3.6/site-packages
+
+See: http://docs.brew.sh/Homebrew-and-Python.html
+==> Summary
+🍺  /usr/local/Cellar/python3/3.6.0: 3,597 files, 55.7M
+host:~ admin$ pip install --upgrade pip setuptools
+Requirement already up-to-date: pip in /usr/local/lib/python2.7/site-packages
+Collecting setuptools
+  Using cached setuptools-34.0.2-py2.py3-none-any.whl
+Collecting packaging>=16.8 (from setuptools)
+  Using cached packaging-16.8-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from setuptools)
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting appdirs>=1.4.0 (from setuptools)
+  Using cached appdirs-1.4.0-py2.py3-none-any.whl
+Collecting pyparsing (from packaging>=16.8->setuptools)
+  Using cached pyparsing-2.1.10-py2.py3-none-any.whl
+Installing collected packages: six, pyparsing, packaging, appdirs, setuptools
+  Found existing installation: setuptools 32.1.0
+    Uninstalling setuptools-32.1.0:
+      Successfully uninstalled setuptools-32.1.0
+Successfully installed appdirs-1.4.0 packaging-16.8 pyparsing-2.1.10 setuptools-34.0.2 six-1.10.0
+host:~ admin$ pip3 install --upgrade pip setuptools wheel
+Requirement already up-to-date: pip in /usr/local/lib/python3.6/site-packages
+Collecting setuptools
+  Using cached setuptools-34.0.2-py2.py3-none-any.whl
+Requirement already up-to-date: wheel in /usr/local/lib/python3.6/site-packages
+Collecting packaging>=16.8 (from setuptools)
+  Using cached packaging-16.8-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from setuptools)
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting appdirs>=1.4.0 (from setuptools)
+  Using cached appdirs-1.4.0-py2.py3-none-any.whl
+Collecting pyparsing (from packaging>=16.8->setuptools)
+  Using cached pyparsing-2.1.10-py2.py3-none-any.whl
+Installing collected packages: six, pyparsing, packaging, appdirs, setuptools
+  Found existing installation: setuptools 32.2.0
+    Uninstalling setuptools-32.2.0:
+      Successfully uninstalled setuptools-32.2.0
+Successfully installed appdirs-1.4.0 packaging-16.8 pyparsing-2.1.10 setuptools-34.0.2 six-1.10.0
+host:~ admin$ exit
+logout
+user@host:[~]:$ 

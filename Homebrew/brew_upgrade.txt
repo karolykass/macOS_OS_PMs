@@ -1,0 +1,202 @@
+Last login: Mon Feb  6 12:19:40 on ttys000
+user@host:[~]:$ su - admin
+Password:
+host:~ admin$ brew update;
+Updated 1 tap (homebrew/core).
+==> New Formulae
+apm-bash-completion        i3                         redex
+aptly-completion           i3status                   robot-framework
+bochs                      imake                      ruby-completion
+boom-completion            ivykis                     rustc-completion
+boot2docker-completion     kitchen-completion         rxvt-unicode
+brew-cask-completion       launchctl-completion       scipy
+bundler-completion         libxkbcommon               sonar-completion
+cap-completion             maven-completion           sourcery
+cargo-completion           mesalib-glw                spdlog
+chakra                     mix-completion             spring-completion
+chezscheme                 morse                      startup-notification
+ddd                        mscgen                     stormssh-completion
+django-completion          mupdf                      swimat
+dmenu                      nativefier                 sxiv
+docker-completion          nedit                      t-completion
+docker-compose-completion  numpy                      temporal_tables
+docker-machine-completion  open-completion            tgif
+dwm                        openmotif                  tiger-vnc
+fabric-completion          packer-completion          tmuxinator-completion
+feh                        pari                       tundra
+fox                        pdf2image                  vagrant-completion
+freeglut                   pgplot                     wmctrl
+freerdp                    pip-completion             wpcli-completion
+gem-completion             proselint                  x3270
+geomview                   protobuf@3.1               xclip
+grace                      qt@5.7                     xdotool
+grunt-completion           rails-completion           xlispstat
+gv                         rake-completion            xpa
+homesick-completion        rdesktop                   xpdf
+==> Updated Formulae
+android-platform-tools     homebank                   pandoc
+ansible@1.9                hydra                      pandoc-crossref
+ansible@2.0                imagemagick                passenger
+antigen                    imagemagick@6              pdfgrep
+apache-drill               internetarchive            pgbadger
+apache-spark@1.5           io                         pgbouncer
+apache-spark@1.6           ios-deploy                 pick
+arangodb                   iperf3                     planck
+armor                      ipmitool                   plplot
+artifactory                irssi                      pmd
+assh                       jboss-forge                podofo
+automake@1.12              jenkins                    portaudio
+aws-sdk-cpp                jsonnet                    pre-commit
+awscli                     jsonschema2pojo            presto
+babeld                     juju@1.25                  profanity
+babl                       kafka                      proftpd
+basex                      kerl                       protobuf
+bash                       khal                       protobuf-c
+bazel                      kibana                     protobuf-swift
+bfg                        knot                       proxychains-ng
+bit                        kobalt                     psqlodbc
+bitrise                    kube-aws                   pulseaudio
+blockhash                  lastpass-cli               pyqt5
+blueutil                   ldc                        qscintilla2
+bullet                     ldns                       qt5
+byobu                      libcec                     qt@5.5
+byteman                    libcouchbase               quazip
+catimg                     libevent                   qwt
+certbot                    libflowmanager             qwtpolar
+cgrep                      libgetdata                 radare2
+checkstyle                 libphonenumber             rakudo-star
+closure-compiler           libprotoident              rancher-compose
+cocoapods                  librdkafka                 redis
+codequery                  libressl                   redsocks
+conan                      libsndfile                 remctl
+consul                     libssh                     riak
+cookiecutter               libtiff                    roswell
+coturn                     libtrace                   ruby-build
+crystal-icr                libuv                      rust
+crystal-lang               libwandevent               saldl
+curlpp                     lighttpd                   sdl2_image
+ddar                       lldpd                      sdl_image
+ddrescue                   logstash                   sec
+deis                       luabind                    shadowsocks-libev
+dnscrypt-proxy             lumo                       sjk
+dnscrypt-wrapper           luvit                      skinny
+docker-compose             mackup                     snappy
+eigen                      macvim                     socat
+elasticsearch              mapnik                     sonarlint
+elasticsearch@1.7          media-info                 spdylay
+elasticsearch@2.4          mediaconch                 sqlmap
+elixir                     memcached                  src
+exiftool                   memcacheq                  sslsplit
+fdroidserver               mercurial                  sstp-client
+filebeat                   meson                      stlink
+fio                        mikutter                   stunnel
+fish                       minimal-racket             supersonic
+folly                      minimesos                  svtplay-dl
+fonttools                  minio                      swiftformat
+fq                         minio-mc                   swig
+fragroute                  minizinc                   syncthing
+fwup                       mitmproxy                  sysbench
+fzf                        mldonkey                   sysdig
+gammaray                   mobile-shell               szl
+gd                         monetdb                    tarantool
+gearman                    mongo-c-driver             terraform
+geckodriver                mpd                        terragrunt
+generate-json-schema       mps-youtube                tika
+git ✔                      mr                         tmate
+git-annex                  msgpack                    tmux
+git-cola                   mvnvm                      tomcat@7
+git-ftp                    n                          tomcat@8.0
+gitbucket                  nanopb-generator           tor
+gitlab-ci-multi-runner     nats-streaming-server      translate-toolkit
+gjstest                    nave                       transmission
+gnu-sed                    neo4j                      twarc
+gnumeric                   neofetch                   twemcache
+gnuplot                    nghttp2                    udunits
+go                         nginx                      unbound
+godep                      ngircd                     upscaledb
+goffice                    node                       upx
+gosu                       node-build                 uwsgi
+gpsbabel                   node@0.10                  viewvc
+grails                     node@0.12                  vim
+grc                        node@4                     vnu
+grok                       node@5                     wallpaper
+gron                       node@6                     wandio
+groonga                    nodeenv                    wartremover
+gssh                       nomad                      webdis
+gst-editing-services       nsd                        webkitgtk
+gst-libav                  nvi                        webp
+gst-plugins-bad            nylon                      wiki
+gst-plugins-base           oath-toolkit               wimlib
+gst-plugins-good           ocproxy                    wireshark
+gst-plugins-ugly           offlineimap                wolfssl
+gst-python                 ola                        x264 ✔
+gst-rtsp-server            open-mpi                   yacas
+gst-validate               openshift-cli              yarn
+gstreamer                  openssl ✔                  yaz
+handbrake                  openssl@1.1                you-get
+harfbuzz                   opus-tools                 youtube-dl
+haxe                       osh                        z80dasm
+hh                         osm-pbf                    zbackup
+highlighting-kate          osrm-backend               zbar
+==> Renamed Formulae
+juju2 -> juju       juju@2.0 -> juju    lua51 -> lua@5.1    lua53 -> lua@5.3
+host:~ admin$ brew outdated;
+git (2.11.0) < 2.11.1
+openssl (1.0.2j) < 1.0.2k
+x264 (r2728) < r2748
+host:~ admin$ brew upgrade;
+==> Upgrading 3 outdated packages, with result:
+git 2.11.1, openssl 1.0.2k, x264 r2748
+==> Upgrading git 
+==> Downloading https://homebrew.bintray.com/bottles/git-2.11.1.sierra.bottle.ta
+######################################################################## 100.0%
+==> Pouring git-2.11.1.sierra.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+
+zsh functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.11.1: 1,456 files, 32.4M
+==> Upgrading openssl 
+==> Downloading https://homebrew.bintray.com/bottles/openssl-1.0.2k.sierra.bottl
+######################################################################## 100.0%
+==> Pouring openssl-1.0.2k.sierra.bottle.tar.gz
+==> Using the sandbox
+==> Caveats
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.2k: 1,696 files, 12M
+==> Upgrading x264 
+==> Downloading https://homebrew.bintray.com/bottles/x264-r2748.sierra.bottle.ta
+######################################################################## 100.0%
+==> Pouring x264-r2748.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/x264/r2748: 11 files, 3.3M
+host:~ admin$ exit
+logout
+user@host:[~]:$ 

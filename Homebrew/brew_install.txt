@@ -315,3 +315,27 @@ Successfully installed appdirs-1.4.0 packaging-16.8 pyparsing-2.1.10 setuptools-
 host:~ admin$ exit
 logout
 user@host:[~]:$ 
+
+
+
+user@host:[~]:$ date
+Wed Feb  8 15:13:01 CET 2017
+user@host:[~]:$ su - admin
+Password:
+host:~ admin$ breq install jq
+-bash: breq: command not found
+host:~ admin$ brew install jq
+==> Installing dependencies for jq: oniguruma
+==> Installing jq dependency: oniguruma
+==> Downloading https://homebrew.bintray.com/bottles/oniguruma-6.1.3.sierra.bott
+######################################################################## 100.0%
+==> Pouring oniguruma-6.1.3.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/oniguruma/6.1.3: 17 files, 1.3M
+==> Installing jq 
+==> Downloading https://homebrew.bintray.com/bottles/jq-1.5_2.sierra.bottle.tar.
+######################################################################## 100.0%
+==> Pouring jq-1.5_2.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/jq/1.5_2: 18 files, 958K
+host:~ admin$  exit
+logout
+user@host:[~]:$

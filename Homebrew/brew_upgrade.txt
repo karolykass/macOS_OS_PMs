@@ -199,4 +199,81 @@ For compilers to find this software you may need to set:
 🍺  /usr/local/Cellar/x264/r2748: 11 files, 3.3M
 host:~ admin$ exit
 logout
-user@host:[~]:$ 
+user@host:[~]:$
+
+
+
+user@host:[~]:$ su - admin
+Password:
+host:~ admin$ date
+Wed Feb  8 15:09:20 CET 2017
+host:~ admin$ brew update;
+Updated 1 tap (homebrew/core).
+==> New Formulae
+abuse               frobtads            myman               robotfindskitten
+advancemame         frotz               naga                rogue
+advancemenu         fs-uae              nazghul             roll
+advancescan         fuego               neopop-sdl          rom-tools
+angband             fuse-emulator       nesemu2             scummvm
+angolmois           gearboy             nestopia-ue         scummvm-tools
+atari800            gearsystem          nethack             sdlpop
+avanor              git-game            nethacked           ski
+babel               git-if              netris              snescom
+ballerburg          glkterm             nettoe              solarus
+bastet              glktermw            ninvaders           spaceinvaders-go
+bubbros             glulxe              np2                 stella
+c10t                gnu-chess           npush               stockfish
+c2048               gnu-go              nsnake              stone-soup
+cataclysm           gnu-shogi           nsuds               stormlib
+cdogs-sdl           gnuski              nudoku              supermodel
+cgoban              go-gui              nuvie               supertux
+cheapglk            gpcslots2           nxengine            sz81
+cheops              greed               omega-rpg           tty-solitaire
+ckan                guichan             onscripter          ucon64
+cockatrice          hatari              open-tyrian         ufoai
+color-code          hexgui              openclonk           uggconv
+corsixth            homeworlds          openjazz            unnethack
+curseofwar          huexpress           opensyobon          vecx
+dgen                instead             openttd             vitetris
+dopewars            jnethack            pachi               webpack
+dosbox              jpcsp               pacman4console      wesnoth
+dosbox-x            lcs                 pc6001vx            widelands
+dungeon             libggz              pioneer             wumpus
+dwarf-fortress      liblcf              pioneers            xboard
+easyrpg-player      libspectrum         polyglot            xmoto
+einstein            libtcod             ponscripter-sekai   xrick
+ems-flasher         lincity-ng          ppsspp              xshogi
+enigma              mame                puzzles             xu4
+exult               mapcrafter          qdae                yetris
+fairymax            mednafen            qtads               zboy
+fceux               mgba                quasi88             zelda-roth-se
+fifechan            minetest            rawgl               zsdx
+fizmo               mkhexgrid           reminiscence        zsxd
+fmsx                moon-buggy          residualvm
+freeciv             mupen64plus         rlvm
+==> Updated Formulae
+ant                 git-town            meson               serf
+apache-flink        grc                 minio-mc            syncthing
+awscli              ibex                mongodb             terraform
+carina              jbake               mpv                 texmath
+consul              jfrog-cli-go        nave                vault
+consul-template     jvgrep              netpbm              watchexec
+davix               kobalt              opencoarrays        winetricks
+feh                 kops                osquery             yarn
+ffe                 lean-cli            prometheus          youtube-dl
+ffmpeg ✔            libepoxy            protobuf-swift      zanata-client
+fonttools           libpointing         purescript
+fstar               libxmp-lite         rocksdb
+host:~ admin$ brew outdated;
+ffmpeg (3.2.2) < 3.2.3
+host:~ admin$ brew upgrade;
+==> Upgrading 1 outdated package, with result:
+ffmpeg 3.2.3
+==> Upgrading ffmpeg 
+==> Downloading https://homebrew.bintray.com/bottles/ffmpeg-3.2.3.sierra.bottle.
+######################################################################## 100.0%
+==> Pouring ffmpeg-3.2.3.sierra.bottle.1.tar.gz
+🍺  /usr/local/Cellar/ffmpeg/3.2.3: 239 files, 50.4M
+host:~ admin$ exit
+logout
+user@host:[~]:$

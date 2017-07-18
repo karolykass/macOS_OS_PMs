@@ -339,3 +339,100 @@ host:~ admin$ brew install jq
 host:~ admin$  exit
 logout
 user@host:[~]:$
+
+
+
+user@host:[~]:
+$ su - admin
+Password:
+host:~ admin$ date
+Sun Mar 12 17:17:58 CET 2017
+host:~ admin$ brew install go@1.7
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+No changes to formulae.
+
+==> Downloading https://homebrew.bintray.com/bottles/go@1.7-1.7.5.sierra.bottle.
+######################################################################## 100.0%
+==> Pouring go@1.7-1.7.5.sierra.bottle.tar.gz
+==> Caveats
+As of go 1.2, a valid GOPATH is required to use the `go get` command:
+  https://golang.org/doc/code.html#GOPATH
+
+You may wish to add the GOROOT-based install location to your PATH:
+  export PATH=$PATH:/usr/local/opt/go@1.7/libexec/bin
+
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+This is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/go@1.7/bin:$PATH"' >> ~/.bash_profile
+
+==> Summary
+🍺  /usr/local/Cellar/go@1.7/1.7.5: 6,440 files, 262.5MB
+host:~ admin$ brew install go    
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+No changes to formulae.
+
+==> Downloading https://homebrew.bintray.com/bottles/go-1.8.sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring go-1.8.sierra.bottle.tar.gz
+==> Caveats
+A valid GOPATH is required to use the `go get` command.
+If $GOPATH is not specified, $HOME/go will be used by default:
+  https://golang.org/doc/code.html#GOPATH
+
+You may wish to add the GOROOT-based install location to your PATH:
+  export PATH=$PATH:/usr/local/opt/go/libexec/bin
+==> Summary
+🍺  /usr/local/Cellar/go/1.8: 7,017 files, 281.6MB
+host:~ admin$ 
+
+
+
+Last login: Tue Jul 18 11:08:48 on ttys006
+user@host:[~]:
+$ date
+Tue Jul 18 11:09:14 CEST 2017
+user@host:[~]:
+$ su - admin
+Password:
+host:~ admin$ brew install wget
+==> Installing dependencies for wget: openssl@1.1
+==> Installing wget dependency: openssl@1.1
+==> Downloading https://homebrew.bintray.com/bottles/openssl@1.1-1.1.0f.sierra.b
+==> Downloading from https://akamai.bintray.com/13/131d4094a2714686a12b74cc653a8
+######################################################################## 100.0%
+==> Pouring openssl@1.1-1.1.0f.sierra.bottle.tar.gz
+==> Using the sandbox
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/openssl@1.1/lib
+    CPPFLAGS: -I/usr/local/opt/openssl@1.1/include
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.0f: 6,421 files, 15.5MB
+==> Installing wget
+==> Downloading https://homebrew.bintray.com/bottles/wget-1.19.1_1.sierra.bottle
+==> Downloading from https://akamai.bintray.com/fe/fe0679b932dd43a87fd415b609a7f
+######################################################################## 100.0%
+==> Pouring wget-1.19.1_1.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/wget/1.19.1_1: 11 files, 1.6MB
+host:~ admin$

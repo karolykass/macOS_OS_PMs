@@ -1,10 +1,12 @@
 # My notes on macOS Open Source Package Managers :notebook:
 
 macOS Sierra
-Version 10.12.2 (16C68) upgraded to 10.12.5 (16F73)
+Version 10.12.6 (16C68) upgraded to 10.12.6 (16G29)
 
 ## Homebrew
-- 1.1.8 upgraded to 1.2.4
+- 1.3.1
+Homebrew 1.3.1
+Homebrew/homebrew-core (git revision d6b4; last commit 2017-08-16)
 
 ## MacPorts
 - 2.3.5
